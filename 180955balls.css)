@@ -459,3 +459,9 @@ a[href$="lionoverview.php?id=194597"]>div.cave-grid>img {
 	padding-top: 80px;
 	padding-right: 130px;
 }
+img[src$="logo-full-2.png"] {
+content: url('https://i.vgy.me/ypCV0a.png');}
+
+.main{
+    position: relative;
+}
