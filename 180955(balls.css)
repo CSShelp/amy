@@ -1,0 +1,461 @@
+/*
+  CSS by Katie (#106445).
+  Code for use by #180955 ONLY.
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+background: url('https://cdn.discordapp.com/attachments/1005546035684323420/1068623049055801434/Capture.PNG) center center fixed;
+background-size: 100%;
+font-family: 'Marmelad', sans-serif;
+color: black;
+
+
+}
+.center.b {
+	color: white !important;
+}
+
+
+.feature {
+	background: rgba(89, 105, 154, 0.6) !important;
+	color: white !important;
+	border: 1px solid #c9cbca !important;
+	border-radius: 10px !important;
+}
+
+
+input[type="button"],
+input[type="submit"],
+input[type="submit"]:hover {
+	border: none !important;
+}
+
+
+.topbar {
+	background: rgba(89, 105, 154, 0.6);
+	border: 1px solid #c9cbca;
+	border-top: none;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Marmelad', sans-serif;
+}
+
+
+.topbar li a {
+	color: white !important;
+}
+
+
+.navbar {
+	background: rgba(89, 105, 154, 0.6);
+	border-bottom: 1px solid #c9cbca;
+	font-family: 'Marmelad', sans-serif;
+	color: white;
+	border-radius: 10px;
+}
+
+
+.navbar li a {
+	color: white !important;
+}
+
+
+.navbar li a:hover {
+	background: rgba(89, 105, 154, 0.6) !important;
+}
+
+
+.container.main {
+	background: rgba(89, 105, 154, 0.3);
+	box-shadow: none;
+	border: 1px solid #c9cbca;
+	border-radius: 10px;
+}
+
+
+.col-md-9 {
+	background: none;
+	border-right: none;
+}
+
+
+.breadcrumb {
+	background: rgba(89, 105, 154, 0.6);
+	color: white !important;
+	border-radius: 10px !important;
+	border: 1px solid #c9cbca
+}
+
+
+.breadcrumb .active {
+	color: white;
+}
+
+
+.alert {
+	background: rgba(116, 166, 230, 0.6);
+	color: white;
+	border-radius: 10px !important;
+	border: 1px solid #c9cbca
+}
+
+
+.alert-warning,
+.alert-danger {
+	background: rgba(116, 166, 230, 0.6);
+	color: white;
+	border-radius: 10px !important;
+	border: 1px solid #c9cbca
+}
+
+
+div.left {
+	background: rgba(116, 166, 230, 0.6);
+	color: white;
+	border: 1px solid #c9cbca;
+	border-radius: 10px !important;
+}
+
+
+.panel {
+	background: rgba(189, 195, 167, 0.6) !important;
+	box-shadow: none !important;
+	border: 1px solid #c9cbca !important;
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+
+.progress {
+	background: rgba(89, 105, 154, 0.6);
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+
+.progress-div {
+	color: white;
+}
+
+
+.progress-bar {
+	background: rgba(89, 105, 154, 0.6);
+	border-radius: 10px !important;
+}
+
+
+.s-chat-message:nth-child(even) {
+	background: rgba(89, 105, 154, 0.6) !important;
+	border: 1px solid #c9cbca !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+	background: rgba(89, 105, 154, 0.6) !important;
+	border: 1px solid #c9cbca !important;
+}
+
+
+.s-chat-message__pinned {
+	background: rgba(116, 166, 230, 0.6) !important;
+	color: white !important;
+	border: 1px solid #c9cbca !important;
+}
+
+
+.s-chat-message_timestamp {
+	color: white !important;
+}
+
+
+div#chatMessageContainer {
+	border: 1px solid #c9cbca !important;
+}
+
+
+button#label_currentChannel {
+	border: 1px solid #c9cbca !important;
+	background: rgba(89, 105, 154, 0.6) !important;
+}
+
+
+h1 {
+	color: white;
+	font-size: 66px;
+	text-align: center !important;
+	text-shadow: 1px 1px #171e17
+}
+
+
+small {
+	color: white !important;
+}
+
+
+h2 {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.sidebar h3 {
+	color: white !important;
+	text-shadow: 1px 1px #171e17
+}
+
+
+h3 {
+	color: white !important;
+	font-size: 24px !important
+}
+
+
+.table {
+	background: rgba(116, 166, 230, 0.6);
+	border: 1px solid #c9cbca !important;
+	border-collapse: separate;
+	border-radius: 10px;
+}
+
+
+.top,
+.bottom,
+th {
+	background: rgba(116, 166, 230, 0.6) !important;
+	color: white !important;
+	border-radius: 10px;
+}
+
+
+.table .left {
+	background: rgba(116, 166, 230, 0.6)
+}
+
+
+.inner-table .left {
+	background: rgba(116, 166, 230, 0.6) !important;
+	border-radius: 10px !important;
+}
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important;
+}
+
+
+.right_odd {
+	background: none !important;
+	border: 1px solid #c9cbca !important;
+}
+
+
+.right_cub {
+	background: rgba(116, 166, 230, 0.6) !important;
+}
+
+
+.item-header {
+	background: rgba(116, 166, 230, 0.6) !important;
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+
+.item {
+	background: rgba(116, 166, 230, 0.6) !important;
+	border: 1px solid #c9cbca !important;
+	border-radius: 10px !important;
+}
+
+
+.sub_menu {
+	background: rgba(116, 166, 230, 0.6) !important;
+}
+
+
+.sub_menu_item_selected {
+	background: rgba(116, 166, 230, 0.6) !important;
+}
+
+
+.cave-grid,
+.mound-grid {
+	background: rgba(116, 166, 230, 0.6);
+	border: 1px solid #c9cbca !important;
+	color: white !important;
+	border-radius: 10px !important;
+}
+
+
+a:link,
+a:visited {
+	color: white !important;
+}
+
+
+a.bigger {
+	color: white !important;
+}
+
+
+.breadcrumb a {
+	color: white !important;
+}
+
+
+.topbar a {
+	color: white !important;
+}
+
+
+a:hover {
+	color: #e4e4e4 !important;
+}
+
+
+input,
+select,
+textarea {
+	background: rgba(116, 166, 230, 0.6) !important;
+	border: none !important;
+	border-radius: 10px;
+	box-shadow: none !important;
+	color: white !important;
+	text-shadow: none !important;
+	border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+
+.Box1 {
+	float: left;
+	background: rgba(116, 166, 230, 0.6);
+	color: white;
+	padding: 15px;
+	border: 1px solid #c9cbca;
+	border-radius: 10px;
+	margin: 10px;
+	float: left;
+	height: 96px;
+	width: 300px;
+	overflow: auto;
+	transition: 3s
+}
+
+
+.Box2 {
+	float: left;
+	background: rgba(116, 166, 230, 0.6);
+	color: white;
+	padding: 15px;
+	border: 1px solid #c9cbca;
+	border-radius: 10px;
+	margin: 10px;
+	height: 96px;
+	width: 300px;
+	overflow: auto;
+	transition: 3s
+}
+
+
+/* Start http://www.cursors-4u.com */
+
+
+* {
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur829.cur), auto !important;
+}
+
+
+
+
+/* End http://www.cursors-4u.com */
+
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+}
+
+
+::-webkit-scrollbar-track {
+	background: white;
+	border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background: #566c79;
+	border-radius: 10px;
+}
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://cdn.discordapp.com/attachments/762546250440507412/1057230344320974848/24596b12f4.png');
+}
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 14px;
+	margin-left: 6px;
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+
+
+
+div.cave-grid>img {
+	content: url('https://cdn.discordapp.com/attachments/762546250440507412/1057399501838622760/image.png')!important;
+}
+
+
+a[href$="158641"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/BlueNileFalls.png')!important;
+}
+
+
+a[href$="154257"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png')!important;
+}
+
+
+a[href$="154321"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/Maletsunyane_Falls.png')!important;
+}
+
+
+a[href$="unsorted.php?id=194597"]>div.cave-grid>img {
+	content: url('https://cdn.discordapp.com/attachments/762546250440507412/1057399245344346232/image.png')!important;
+}
+
+
+a[href$="lionoverview.php?id=194597"]>div.cave-grid>img {
+	content: url('https://cdn.discordapp.com/attachments/762546250440507412/1057399669996650506/image.png')!important;
+}
+
+
+.mound-grid img {
+	background: url("https://cdn.discordapp.com/attachments/762546250440507412/1057400407179153478/image.png");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
